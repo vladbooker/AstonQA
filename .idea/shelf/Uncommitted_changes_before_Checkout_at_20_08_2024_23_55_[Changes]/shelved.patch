@@ -1,0 +1,107 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/org/example/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/org/example/Main.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"ProjectErrors\" />\r\n  </component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.Main.executor\": \"Run\",\r\n  }\r\n}]]></component>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.Main\" />\r\n      <module name=\"AstonQA\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"org.example.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"FactorialTest\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"AstonQA\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"FactorialTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"FactorialTest.testFactorialOfZero\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"AstonQA\" />\r\n      <option name=\"PACKAGE_NAME\" value=\"\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"FactorialTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"testFactorialOfZero\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"TestNG.FactorialTest\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 7a9a6dcf19d594920b4b0b821c5c15b2602e13de)
++++ b/.idea/workspace.xml	(date 1724187248393)
+@@ -6,7 +6,6 @@
+   <component name="ChangeListManager">
+     <list default="true" id="2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3" name="Changes" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -17,19 +16,21 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
++        <entry key="$PROJECT_DIR$" value="Lesson_14_junit_5" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="ProblemsViewState">
+-    <option name="selectedTabId" value="ProjectErrors" />
++    <option name="selectedTabId" value="CurrentFile" />
+   </component>
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+-    "Application.Main.executor": "Run",
++    "git-widget-placeholder": "Lesson__14__testng"
+   }
+ }]]></component>
++  <component name="RunManager">
+     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+       <module name="AstonQA" />
+@@ -43,32 +44,9 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="FactorialTest" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="AstonQA" />
+-      <option name="PACKAGE_NAME" value="" />
+-      <option name="MAIN_CLASS_NAME" value="FactorialTest" />
+-      <option name="TEST_OBJECT" value="CLASS" />
+-      <properties />
+-      <listeners />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="FactorialTest.testFactorialOfZero" type="TestNG" temporary="true" nameIsGenerated="true">
+-      <module name="AstonQA" />
+-      <option name="PACKAGE_NAME" value="" />
+-      <option name="MAIN_CLASS_NAME" value="FactorialTest" />
+-      <option name="METHOD_NAME" value="testFactorialOfZero" />
+-      <option name="TEST_OBJECT" value="METHOD" />
+-      <properties />
+-      <listeners />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="TestNG.FactorialTest" />
++        <item itemvalue="Application.Main" />
+         <item itemvalue="Application.Main" />
+       </list>
+     </recent_temporary>
+Index: src/main/java/org/example/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\npublic class Main {\r\n    public static int calculateFactorial(int n) {\r\n        if (n == 0) {\r\n            return 1;\r\n        } else {\r\n            return n * calculateFactorial(n - 1);\r\n        }\r\n    }\r\n    public static void main(String[] args) {\r\n        int number = 5;\r\n        System.out.println(\"Факториал числа \" + number + \" число: \" + calculateFactorial(number));\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Main.java b/src/main/java/org/example/Main.java
+--- a/src/main/java/org/example/Main.java	(revision 7a9a6dcf19d594920b4b0b821c5c15b2602e13de)
++++ b/src/main/java/org/example/Main.java	(date 1724186875449)
+@@ -1,15 +1,9 @@
+ package org.example;
+ 
++//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
++// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+ public class Main {
+-    public static int calculateFactorial(int n) {
+-        if (n == 0) {
+-            return 1;
+-        } else {
+-            return n * calculateFactorial(n - 1);
+-        }
+-    }
+     public static void main(String[] args) {
+-        int number = 5;
+-        System.out.println("Факториал числа " + number + " число: " + calculateFactorial(number));
++
+     }
+-}
++}
+\ No newline at end of file

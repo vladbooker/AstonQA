@@ -1,0 +1,62 @@
+Index: src/main/java/org/example/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package org.example;\r\n\r\n//TIP To <b>Run</b> code, press <shortcut actionId=\"Run\"/> or\r\n// click the <icon src=\"AllIcons.Actions.Execute\"/> icon in the gutter.\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/org/example/Main.java b/src/main/java/org/example/Main.java
+--- a/src/main/java/org/example/Main.java	(revision 90c5e267e6e785c51e9e0290da4541565532afb5)
++++ b/src/main/java/org/example/Main.java	(date 1724187830494)
+@@ -1,9 +1,15 @@
+ package org.example;
+-
+-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+ public class Main {
++    public static int calculateFactorial(int n) {
++        if (n == 0) {
++            return 1;
++        } else {
++            return n * calculateFactorial(n - 1);
++        }
++    }
++
+     public static void main(String[] args) {
+-
++        int number = 5;
++        System.out.println("Факториал числа " + number + " число: " + calculateFactorial(number));
+     }
+ }
+\ No newline at end of file
+Index: src/test/java/FactorialTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/FactorialTest.java b/src/test/java/FactorialTest.java
+new file mode 100644
+--- /dev/null	(date 1724188224452)
++++ b/src/test/java/FactorialTest.java	(date 1724188224452)
+@@ -0,0 +1,21 @@
++import org.example.Main;
++import org.junit.jupiter.api.Test;
++import static org.junit.jupiter.api.Assertions.assertEquals;
++
++public class FactorialTest {
++
++    @Test
++    void testFactorialOfZero() {
++        assertEquals(1, Main.calculateFactorial(0));
++    }
++
++    @Test
++    void testFactorialOfFive() {
++        assertEquals(120, Main.calculateFactorial(5));
++    }
++
++    @Test
++    void testFactorialOfTen() {
++        assertEquals(3628800, Main.calculateFactorial(10));
++    }
++}
