@@ -24,13 +24,11 @@ public class Main {
 
         System.out.println(Tasks.leapYear(2024)); //9
 
-
         int[] arr = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};//10
         Tasks.invertArray(arr);
 
         int[] arr1 = new int[100];//11
         Tasks.fillArray(arr1);
-
 
         int[] arr2 = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};//12
         Tasks.multiplyNum(arr2);
