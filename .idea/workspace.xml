@@ -17,7 +17,6 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_14_junit_5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,12 +28,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
-    "TestNG.FactorialTest.executor": "Run",
-    "TestNG.FactorialTest.testFactorialOfZero.executor": "Run",
-    "git-widget-placeholder": "Lesson__14__testng"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="AstonQA" />
@@ -73,8 +68,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="TestNG.FactorialTest.testFactorialOfZero" />
         <item itemvalue="TestNG.FactorialTest" />
         <item itemvalue="Application.Main" />
       </list>
