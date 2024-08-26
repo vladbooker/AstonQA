@@ -5,6 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_08_2024_0_20_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_08_2024_0_20__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_08_2024_0_24_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_08_2024_0_24__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_08_2024_0_25_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_08_2024_0_25__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_08_2024_0_33_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_08_2024_0_33__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_08_2024_0_34_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26_08_2024_0_34__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MtsByTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MtsByTest.java" afterDir="false" />
     </list>
@@ -23,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson_14_junit_5" />
+        <entry key="$PROJECT_DIR$" value="Lesson_18_Allure" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,55 +64,99 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.MtsByTest.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.MtsByTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MtsByTest.testCardDetails.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MtsByTest.testCheckBlockTitle.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MtsByTest.testCheckPaymentLogos.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MtsByTest.testCheckReadMoreLink.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MtsByTest.testContinueButtonFunctionality.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MtsByTest.testOnlineRechargeWithoutCommission.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MtsByTest.testOnlineReplenishmentBlockTitle.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MtsByTest.testOnlineReplenishmentLink.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MtsByTest.testPaymentLogos.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MtsByTest.testPaymentLogosDisplay.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MtsByTest.testPhoneDisplay.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MtsByTest.testServices.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MtsByTest.testSumDisplay.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MtsOnlineTopupTests.testCheckBlockTitle.executor&quot;: &quot;Run&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;Lesson__15MTS&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;io.qameta.allure.idea.settings.AppSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MtsByTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MtsByTest">
+    <configuration name="MtsByTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AstonQA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MtsByTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MtsByTest" />
-      <module name="AstonQA" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test in AstonQA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MtsByTest.testContinueButtonFunctionality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AstonQA" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MtsByTest" />
+      <option name="METHOD_NAME" value="testContinueButtonFunctionality" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MtsByTest.testOnlineRechargeWithoutCommission" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AstonQA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MtsByTest" />
+      <option name="METHOD_NAME" value="testOnlineRechargeWithoutCommission" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MtsByTest.testOnlineReplenishmentLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AstonQA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MtsByTest" />
+      <option name="METHOD_NAME" value="testOnlineReplenishmentLink" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MtsByTest.testPaymentLogosDisplay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AstonQA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MtsByTest" />
+      <option name="METHOD_NAME" value="testPaymentLogosDisplay" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MtsByTest" />
-        <item itemvalue="JUnit.test in AstonQA" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.test in AstonQA" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MtsByTest" />
+        <item itemvalue="JUnit.MtsByTest.testContinueButtonFunctionality" />
+        <item itemvalue="JUnit.MtsByTest.testOnlineRechargeWithoutCommission" />
+        <item itemvalue="JUnit.MtsByTest.testPaymentLogosDisplay" />
+        <item itemvalue="JUnit.MtsByTest.testOnlineReplenishmentLink" />
       </list>
     </recent_temporary>
   </component>
@@ -123,8 +177,27 @@
       <option name="project" value="LOCAL" />
       <updated>1724677821497</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1724695459910</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724695459910</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
