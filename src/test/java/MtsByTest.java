@@ -1,101 +1,94 @@
-import io.qameta.allure.Epic;
-import io.qameta.allure.Feature;
-import io.qameta.allure.Owner;
+import io.qameta.allure.Attachment;
+import io.qameta.allure.Description;
 import io.qameta.allure.Step;
-import io.qameta.allure.junit5.AllureJunit5;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
+import org.junit.After;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.junit.jupiter.api.Assertions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import pages.HomePage;
+import pages.PaymentPage;
 
-import java.util.List;
-
-@Epic("MTS Tests")
-@Feature("MTS Website Tests")
-@Owner("My")
-@ExtendWith(AllureJunit5.class)
 public class MtsByTest {
-    private static WebDriver driver;
 
-    @BeforeAll
-    public static void setup() {
+    private WebDriver driver;
+    private HomePage homePage;
+    private PaymentPage paymentPage;
+
+    @Before
+    public void setUp() {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
         driver = new ChromeDriver();
-        driver.get("https://www.mts.by/");
+        homePage = new HomePage(driver);
+        homePage.open();
     }
 
-    @DisplayName("Verify services on MTS.by homepage")
-    @Test
-    @Step("Проверка доступных услуг на главной странице MTS.by")
-    public void testServices() {
-        String[] services = {"Услуги связи", "Домашний интернет", "Рассрочка", "Задолженность"};
-        for (String service : services) {
-            verifyServicePresence(service);
-        }
-    }
-
-    @Step("Проверьте наличие услуги: {service}")
-    private void verifyServicePresence(String service) {
-        WebElement serviceInput = driver.findElement(By.xpath("//*[contains(text(), '" + service + "')]"));
-        Assertions.assertNotNull(serviceInput, "Элемент с текстом " + service + " не найден");
-        String placeholder = serviceInput.getAttribute("placeholder");
-        Assertions.assertNotNull(placeholder, "Надпись в незаполненном поле " + service + " не найдена");
-    }
-
-    @Test
-    @Step("Проверка отображения номера телефона")
-    public void testPhoneDisplay() {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        WebElement phoneDisplay = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("connection-phone")));
-        Assertions.assertNotNull(phoneDisplay, "Элемент для отображения номера телефона не найден");
-        String displayedPhone = phoneDisplay.getText().trim();
-        System.out.println("Отображаемый номер телефона: " + displayedPhone);
-        Assertions.assertEquals("Номер телефона: 297777777", displayedPhone, "Некорректное отображение номера телефона");
-    }
-
-    @Test
-    @Step("Проверка отображения суммы")
-    public void testSumDisplay() {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        WebElement sumDisplay = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("connection-sum")));
-        Assertions.assertNotNull(sumDisplay, "Элемент для отображения суммы не найден");
-        String displayedSum = sumDisplay.getText().trim();
-        System.out.println("Отображаемая сумма: " + displayedSum);
-        Assertions.assertEquals("Сумма: 1000 руб.", displayedSum, "Некорректное отображение суммы");
-    }
-
-    @Test
-    @Step("Проверка деталей карты")
-    public void testCardDetails() {
-        WebElement cardDetails = driver.findElement(By.xpath("//div[@class='app-wrapper__content-container app-wrapper__content-container_fulls']"));
-        Assertions.assertNotNull(cardDetails, "Элемент для ввода реквизитов карты не найден");
-        Assertions.assertNotNull(cardDetails.getAttribute("placeholder"), "Надпись в незаполненном поле для ввода реквизитов карты не найдена");
-    }
-
-    @Test
-    @Step("Проверка логотипов платежных систем")
-    public void testPaymentLogos() {
-        WebElement paymentLogos = driver.findElement(By.xpath("//div[@class='pay__partners']"));
-        Assertions.assertNotNull(paymentLogos, "Элемент для логотипов платежных систем не найден");
-        List<WebElement> logos = paymentLogos.findElements(By.tagName("img"));
-        Assertions.assertTrue(logos.size() > 0, "Логотипы платежных систем не найдены");
-        for (WebElement logo : logos) {
-            Assertions.assertTrue(logo.isDisplayed(), "Логотип платежной системы не отображается");
-        }
-    }
-
-    @AfterAll
-    public static void tearDown() {
+    @After
+    public void tearDown() {
         if (driver != null) {
             driver.quit();
         }
     }
+
+    @Test
+    @Description("Проверка заголовка блока")
+    public void testCheckBlockTitle() {
+        log("Проверяем заголовок блока");
+        Assert.assertNotNull("Блок не найден", homePage.getBlockTitle());
+        String blockTitle = homePage.getBlockTitle().getText();
+        Assert.assertEquals("Название блока не соответствует", "Онлайн пополнение\n"+"без комиссии", blockTitle);
+        attachBlockTitle(blockTitle);
+    }
+
+    @Test
+    @Description("Проверка ссылки на онлайн пополнение")
+    public void testOnlineReplenishmentLink() {
+        log("Проверяем ссылку на онлайн пополнение");
+        Assert.assertTrue("Ссылка 'Подробнее о сервисе' недоступна",
+                homePage.getOnlineReplenishmentLink().isDisplayed());
+        homePage.getOnlineReplenishmentLink().click();
+
+        String expectedUrl = "https://www.mts.by/help/poryadok-oplaty-i-bezopasnost-internet-platezhey/";
+        String actualUrl = driver.getCurrentUrl();
+
+        Assert.assertEquals("URL страницы не совпадает с ожидаемым", expectedUrl, actualUrl);
+    }
+
+    @Test
+    @Description("Проверка функциональности кнопки 'Продолжить'")
+    public void testContinueButtonFunctionality() {
+        log("Заполняем данные подключения");
+        paymentPage = homePage.fillConnectionDetails("297777777", "100");
+
+        Assert.assertTrue("Iframe с платежной формой должен быть видим", paymentPage.getFrame().isDisplayed());
+        paymentPage.checkPaymentLogos();
+        paymentPage.checkEmptyFields();
+    }
+
+    @Test
+    @Description("Проверка ссылки 'Подробнее о сервисе'")
+    public void testCheckReadMoreLink() {
+        WebElement readMoreLink = driver.findElement(By.linkText("Подробнее о сервисе"));
+        Assert.assertTrue("Ссылка 'Подробнее о сервисе' не активна", readMoreLink.isDisplayed());
+        readMoreLink.click();
+        Assert.assertEquals("URL не соответствует",
+                "https://www.mts.by/help/poryadok-oplaty-i-bezopasnost-internet-platezhey/",
+                driver.getCurrentUrl());
+        driver.navigate().back();
+    }
+
+    @Step("Логирование: {message}")
+    private void log(String message) {
+        System.out.println(message);
+    }
+
+    @Attachment(value = "Заголовок блока", type = "text/plain")
+    private String attachBlockTitle(String blockTitle) {
+        return blockTitle;
+    }
 }
+
+

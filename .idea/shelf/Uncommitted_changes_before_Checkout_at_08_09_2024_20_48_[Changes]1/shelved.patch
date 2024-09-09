@@ -1,0 +1,738 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_26_08_2024_21_12_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_26_08_2024_21_12_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_26_08_2024_21_12_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_26_08_2024_21_12_[Changes]/shelved.patch	(revision 8b9e62ed0880eee5c7694abb12bc5f33b58e0f30)
++++ /dev/null	(revision 8b9e62ed0880eee5c7694abb12bc5f33b58e0f30)
+@@ -1,51 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3\" name=\"Changes\" comment=\"Merge remote-tracking branch 'origin/master'\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/MtsByTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/MtsByTest.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"Lesson_14_junit_5\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;vladbooker&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/vladbooker/AstonQA.git&quot;,\r\n    &quot;accountId&quot;: &quot;cbd0033b-ecc5-43f8-a676-44f15b98bd87&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2lC4YJ54usmcZMtW36sJtnhX6pi\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Application.MtsByTest.executor&quot;: &quot;Run&quot;,\r\n    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;Lesson__15MTS&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Application.MtsByTest\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.Main\" />\r\n      <module name=\"AstonQA\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"org.example.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MtsByTest\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"MtsByTest\" />\r\n      <module name=\"AstonQA\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"test in AstonQA\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"AstonQA\" />\r\n      <option name=\"TEST_OBJECT\" value=\"directory\" />\r\n      <dir value=\"$PROJECT_DIR$/src/test\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.MtsByTest\" />\r\n        <item itemvalue=\"JUnit.test in AstonQA\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"JUnit.test in AstonQA\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3\" name=\"Changes\" comment=\"\" />\r\n      <created>1724670772768</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1724670772768</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724677821497</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724677821497</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Merge remote-tracking branch 'origin/master'\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Merge remote-tracking branch 'origin/master'\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <breakpoint enabled=\"true\" type=\"java-exception\">\r\n          <properties class=\"java.lang.IllegalStateException\" package=\"java.lang\" />\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision a050fa4807765be4fb14ebb45ee604c5451a1e7c)
+-+++ b/.idea/workspace.xml	(date 1724695842967)
+-@@ -4,10 +4,7 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
+--      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+--      <change beforePath="$PROJECT_DIR$/src/test/java/MtsByTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MtsByTest.java" afterDir="false" />
+--    </list>
+-+    <list default="true" id="2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3" name="Changes" comment="Merge remote-tracking branch 'origin/master'" />
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-@@ -123,8 +120,27 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1724677821497</updated>
+-     </task>
+--    <option name="localTasksCounter" value="2" />
+-+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/master'">
+-+      <option name="closed" value="true" />
+-+      <created>1724695459910</created>
+-+      <option name="number" value="00002" />
+-+      <option name="presentableId" value="LOCAL-00002" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1724695459910</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="3" />
+-     <servers />
+-+  </component>
+-+  <component name="Vcs.Log.Tabs.Properties">
+-+    <option name="TAB_STATES">
+-+      <map>
+-+        <entry key="MAIN">
+-+          <value>
+-+            <State />
+-+          </value>
+-+        </entry>
+-+      </map>
+-+    </option>
+-   </component>
+-   <component name="VcsManagerConfiguration">
+-     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_15__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_15__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_15__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_15__Changes_.xml	(revision 8b9e62ed0880eee5c7694abb12bc5f33b58e0f30)
++++ /dev/null	(revision 8b9e62ed0880eee5c7694abb12bc5f33b58e0f30)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_27_08_2024_20_15_[Changes]" date="1724778926733" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_15_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 27.08.2024 20:15 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_17__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_17__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_17__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_17__Changes_.xml	(revision 8b9e62ed0880eee5c7694abb12bc5f33b58e0f30)
++++ /dev/null	(revision 8b9e62ed0880eee5c7694abb12bc5f33b58e0f30)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_27_08_2024_20_17_[Changes]" date="1724779075218" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_17_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 27.08.2024 20:17 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_26_08_2024_21_12__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_26_08_2024_21_12__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_26_08_2024_21_12__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_26_08_2024_21_12__Changes_.xml	(revision 8b9e62ed0880eee5c7694abb12bc5f33b58e0f30)
++++ /dev/null	(revision 8b9e62ed0880eee5c7694abb12bc5f33b58e0f30)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_26_08_2024_21_12_[Changes]" date="1724695999756" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_26_08_2024_21_12_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 26.08.2024 21:12 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_17_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_17_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_17_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_17_[Changes]/shelved.patch	(revision 8b9e62ed0880eee5c7694abb12bc5f33b58e0f30)
++++ /dev/null	(revision 8b9e62ed0880eee5c7694abb12bc5f33b58e0f30)
+@@ -1,144 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3\" name=\"Changes\" comment=\"Merge remote-tracking branch 'origin/master'\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"Lesson_14_junit_5\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;vladbooker&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/vladbooker/AstonQA.git&quot;,\r\n    &quot;accountId&quot;: &quot;cbd0033b-ecc5-43f8-a676-44f15b98bd87&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2lC4YJ54usmcZMtW36sJtnhX6pi\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Application.MtsByTest.executor&quot;: &quot;Run&quot;,\r\n    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;Lesson__15MTS&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Application.MtsByTest\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.Main\" />\r\n      <module name=\"AstonQA\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"org.example.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MtsByTest\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"MtsByTest\" />\r\n      <module name=\"AstonQA\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"test in AstonQA\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"AstonQA\" />\r\n      <option name=\"TEST_OBJECT\" value=\"directory\" />\r\n      <dir value=\"$PROJECT_DIR$/src/test\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.MtsByTest\" />\r\n        <item itemvalue=\"JUnit.test in AstonQA\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"JUnit.test in AstonQA\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3\" name=\"Changes\" comment=\"\" />\r\n      <created>1724670772768</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1724670772768</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724677821497</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724677821497</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724695459910</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724695459910</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Merge remote-tracking branch 'origin/master'\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Merge remote-tracking branch 'origin/master'\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <breakpoint enabled=\"true\" type=\"java-exception\">\r\n          <properties class=\"java.lang.IllegalStateException\" package=\"java.lang\" />\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 7366bfe5123013ba945c8891cc51d29a42d4b679)
+-+++ b/.idea/workspace.xml	(date 1724778951748)
+-@@ -4,66 +4,23 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3" name="Changes" comment="Merge remote-tracking branch 'origin/master'" />
+-+    <list default="true" id="2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3" name="Changes" comment="" />
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-     <option name="LAST_RESOLUTION" value="IGNORE" />
+--  </component>
+--  <component name="FileTemplateManagerImpl">
+--    <option name="RECENT_TEMPLATES">
+--      <list>
+--        <option value="Class" />
+--      </list>
+--    </option>
+-   </component>
+-   <component name="Git.Settings">
+-     <option name="RECENT_BRANCH_BY_REPOSITORY">
+-       <map>
+--        <entry key="$PROJECT_DIR$" value="Lesson_14_junit_5" />
+-+        <entry key="$PROJECT_DIR$" value="lesson_8" />
+-       </map>
+-     </option>
+--    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-   </component>
+--  <component name="GitHubPullRequestSearchHistory">{
+--  &quot;lastFilter&quot;: {
+--    &quot;state&quot;: &quot;OPEN&quot;,
+--    &quot;assignee&quot;: &quot;vladbooker&quot;
+--  }
+--}</component>
+--  <component name="GithubPullRequestsUISettings">{
+--  &quot;selectedUrlAndAccountId&quot;: {
+--    &quot;url&quot;: &quot;https://github.com/vladbooker/AstonQA.git&quot;,
+--    &quot;accountId&quot;: &quot;cbd0033b-ecc5-43f8-a676-44f15b98bd87&quot;
+--  }
+--}</component>
+-   <component name="ProblemsViewState">
+--    <option name="selectedTabId" value="CurrentFile" />
+-+    <option name="selectedTabId" value="ProjectErrors" />
+-   </component>
+--  <component name="ProjectColorInfo">{
+--  &quot;associatedIndex&quot;: 6
+--}</component>
+--  <component name="ProjectId" id="2lC4YJ54usmcZMtW36sJtnhX6pi" />
+-   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+--  <component name="ProjectViewState">
+--    <option name="hideEmptyMiddlePackages" value="true" />
+--    <option name="showLibraryContents" value="true" />
+--  </component>
+--  <component name="PropertiesComponent">{
+--  &quot;keyToString&quot;: {
+--    &quot;Application.MtsByTest.executor&quot;: &quot;Run&quot;,
+--    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+--    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+--    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+--    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+--    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+--    &quot;git-widget-placeholder&quot;: &quot;Lesson__15MTS&quot;,
+--    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+--    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+--    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+--    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+--  }
+--}</component>
+-   <component name="RunManager" selected="Application.MtsByTest">
+-     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+-@@ -98,62 +55,11 @@
+-         <item itemvalue="Application.MtsByTest" />
+-         <item itemvalue="JUnit.test in AstonQA" />
+-         <item itemvalue="Application.Main" />
+--        <item itemvalue="JUnit.test in AstonQA" />
+-         <item itemvalue="Application.Main" />
+-       </list>
+-     </recent_temporary>
+-   </component>
+--  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-   <component name="TaskManager">
+--    <task active="true" id="Default" summary="Default task">
+--      <changelist id="2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3" name="Changes" comment="" />
+--      <created>1724670772768</created>
+--      <option name="number" value="Default" />
+--      <option name="presentableId" value="Default" />
+--      <updated>1724670772768</updated>
+--    </task>
+--    <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'">
+--      <option name="closed" value="true" />
+--      <created>1724677821497</created>
+--      <option name="number" value="00001" />
+--      <option name="presentableId" value="LOCAL-00001" />
+--      <option name="project" value="LOCAL" />
+--      <updated>1724677821497</updated>
+--    </task>
+--    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/master'">
+--      <option name="closed" value="true" />
+--      <created>1724695459910</created>
+--      <option name="number" value="00002" />
+--      <option name="presentableId" value="LOCAL-00002" />
+--      <option name="project" value="LOCAL" />
+--      <updated>1724695459910</updated>
+--    </task>
+--    <option name="localTasksCounter" value="3" />
+-     <servers />
+-   </component>
+--  <component name="Vcs.Log.Tabs.Properties">
+--    <option name="TAB_STATES">
+--      <map>
+--        <entry key="MAIN">
+--          <value>
+--            <State />
+--          </value>
+--        </entry>
+--      </map>
+--    </option>
+--  </component>
+--  <component name="VcsManagerConfiguration">
+--    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+--    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+--  </component>
+--  <component name="XDebuggerManager">
+--    <breakpoint-manager>
+--      <breakpoints>
+--        <breakpoint enabled="true" type="java-exception">
+--          <properties class="java.lang.IllegalStateException" package="java.lang" />
+--          <option name="timeStamp" value="1" />
+--        </breakpoint>
+--      </breakpoints>
+--    </breakpoint-manager>
+--  </component>
+- </project>
+-\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_08__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_08__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_08__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_08__Changes_.xml	(revision 8b9e62ed0880eee5c7694abb12bc5f33b58e0f30)
++++ /dev/null	(revision 8b9e62ed0880eee5c7694abb12bc5f33b58e0f30)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_27_08_2024_20_08_[Changes]" date="1724778514506" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_08_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 27.08.2024 20:08 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_15_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_15_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_15_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_15_[Changes]/shelved.patch	(revision 8b9e62ed0880eee5c7694abb12bc5f33b58e0f30)
++++ /dev/null	(revision 8b9e62ed0880eee5c7694abb12bc5f33b58e0f30)
+@@ -1,251 +0,0 @@
+-Index: pom.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <groupId>org.example</groupId>\r\n    <artifactId>AstonQA</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n\r\n    <properties>\r\n        <maven.compiler.source>11</maven.compiler.source>\r\n        <maven.compiler.target>11</maven.compiler.target>\r\n        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\r\n    </properties>\r\n\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/pom.xml b/pom.xml
+---- a/pom.xml	(revision 90c5e267e6e785c51e9e0290da4541565532afb5)
+-+++ b/pom.xml	(date 1724778809346)
+-@@ -3,15 +3,27 @@
+-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+-          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+-     <modelVersion>4.0.0</modelVersion>
+--
+--    <groupId>org.example</groupId>
+--    <artifactId>AstonQA</artifactId>
+--    <version>1.0-SNAPSHOT</version>
+-+    <groupId>org.junit.jupiter</groupId>
+-+    <artifactId>junit-jupiter-api</artifactId>
+-+    <version>5.7.0</version>
+- 
+-     <properties>
+-         <maven.compiler.source>11</maven.compiler.source>
+-         <maven.compiler.target>11</maven.compiler.target>
+-         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+-     </properties>
+-+    <dependencies>
+-+        <dependency>
+-+            <groupId>org.seleniumhq.selenium</groupId>
+-+            <artifactId>selenium-java</artifactId>
+-+            <version>3.141.59</version>
+-+        </dependency>
+-+        <dependency>
+-+            <groupId>junit</groupId>
+-+            <artifactId>junit</artifactId>
+-+            <version>RELEASE</version>
+-+            <scope>test</scope>
+-+        </dependency>
+- 
+-+    </dependencies>
+- </project>
+-\ No newline at end of file
+-Index: src/test/java/MtsByTest.java
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/src/test/java/MtsByTest.java b/src/test/java/MtsByTest.java
+-new file mode 100644
+---- /dev/null	(date 1724778709881)
+-+++ b/src/test/java/MtsByTest.java	(date 1724778709881)
+-@@ -0,0 +1,34 @@
+-+import org.openqa.selenium.By;
+-+import org.openqa.selenium.WebDriver;
+-+import org.openqa.selenium.WebElement;
+-+import org.openqa.selenium.chrome.ChromeDriver;
+-+
+-+public class MtsByTest {
+-+    public static void main(String[] args) {
+-+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
+-+
+-+        WebDriver driver = new ChromeDriver();
+-+
+-+        driver.get("https://www.mts.by/");
+-+
+-+        String[] services = {"Услуги связи", "Домашний интернет", "Рассрочка", "Задолженность"};
+-+        for (String pay : services) {
+-+            WebElement serviceInput = driver.findElement(By.id(pay));
+-+            assert serviceInput.getAttribute("placeholder") != null : "Надпись в незаполненном поле " + pay + " не найдена";
+-+        }
+-+
+-+        WebElement phoneDisplay = driver.findElement(By.id("connection-phone"));
+-+        assert phoneDisplay.getText().equals("Номер телефона: 297777777") : "Некорректное отображение номера телефона";
+-+
+-+        WebElement sumDisplay = driver.findElement(By.id("connection-sum"));
+-+        assert sumDisplay.getText().equals("Сумма: 1000 руб.") : "Некорректное отображение суммы";
+-+
+-+        WebElement cardDetails = driver.findElement(By.xpath("//div[@class='app-wrapper__content-container app-wrapper__content-container_fulls']"));;
+-+        assert cardDetails.getAttribute("placeholder") != null : "Надпись в незаполненном поле для ввода реквизитов карты не найдена";
+-+
+-+        WebElement paymentLogos = driver.findElement(By.xpath("//div[@class='pay__partners']"));
+-+        assert paymentLogos.findElements(By.tagName("img")).size() > 0 : "Логотипы платежных систем не найдены";
+-+
+-+        driver.quit();
+-+    }
+-+}
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"lesson_8\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"ProjectErrors\" />\r\n  </component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.Main\" />\r\n      <module name=\"AstonQA\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"org.example.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <servers />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 90c5e267e6e785c51e9e0290da4541565532afb5)
+-+++ b/.idea/workspace.xml	(date 1724778893756)
+-@@ -4,24 +4,71 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3" name="Changes" comment="" />
+-+    <list default="true" id="2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
+-+      <change afterPath="$PROJECT_DIR$/src/test/java/MtsByTest.java" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+-+    </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-     <option name="LAST_RESOLUTION" value="IGNORE" />
+-+  </component>
+-+  <component name="FileTemplateManagerImpl">
+-+    <option name="RECENT_TEMPLATES">
+-+      <list>
+-+        <option value="Class" />
+-+      </list>
+-+    </option>
+-   </component>
+-   <component name="Git.Settings">
+-     <option name="RECENT_BRANCH_BY_REPOSITORY">
+-       <map>
+--        <entry key="$PROJECT_DIR$" value="lesson_8" />
+-+        <entry key="$PROJECT_DIR$" value="master" />
+-       </map>
+-     </option>
+-+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-   </component>
+-+  <component name="GitHubPullRequestSearchHistory">{
+-+  &quot;lastFilter&quot;: {
+-+    &quot;state&quot;: &quot;OPEN&quot;,
+-+    &quot;assignee&quot;: &quot;vladbooker&quot;
+-+  }
+-+}</component>
+-+  <component name="GithubPullRequestsUISettings">{
+-+  &quot;selectedUrlAndAccountId&quot;: {
+-+    &quot;url&quot;: &quot;https://github.com/vladbooker/AstonQA.git&quot;,
+-+    &quot;accountId&quot;: &quot;cbd0033b-ecc5-43f8-a676-44f15b98bd87&quot;
+-+  }
+-+}</component>
+-   <component name="ProblemsViewState">
+--    <option name="selectedTabId" value="ProjectErrors" />
+-+    <option name="selectedTabId" value="CurrentFile" />
+-   </component>
+-+  <component name="ProjectColorInfo">{
+-+  &quot;associatedIndex&quot;: 6
+-+}</component>
+-+  <component name="ProjectId" id="2lC4YJ54usmcZMtW36sJtnhX6pi" />
+-   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+--  <component name="RunManager">
+-+  <component name="ProjectViewState">
+-+    <option name="hideEmptyMiddlePackages" value="true" />
+-+    <option name="showLibraryContents" value="true" />
+-+  </component>
+-+  <component name="PropertiesComponent"><![CDATA[{
+-+  "keyToString": {
+-+    "Application.MtsByTest.executor": "Run",
+-+    "Downloaded.Files.Path.Enabled": "false",
+-+    "Repository.Attach.Annotations": "false",
+-+    "Repository.Attach.JavaDocs": "false",
+-+    "Repository.Attach.Sources": "false",
+-+    "RunOnceActivity.ShowReadmeOnStart": "true",
+-+    "git-widget-placeholder": "Lesson__16MTS",
+-+    "kotlin-language-version-configured": "true",
+-+    "project.structure.last.edited": "Modules",
+-+    "project.structure.proportion": "0.15",
+-+    "project.structure.side.proportion": "0.2"
+-+  }
+-+}]]></component>
+-+  <component name="RunManager" selected="Application.Main">
+-     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+-       <module name="AstonQA" />
+-@@ -31,17 +78,76 @@
+-           <option name="ENABLED" value="true" />
+-         </pattern>
+-       </extension>
+-+      <method v="2">
+-+        <option name="Make" enabled="true" />
+-+      </method>
+-+    </configuration>
+-+    <configuration name="MtsByTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-+      <option name="MAIN_CLASS_NAME" value="MtsByTest" />
+-+      <module name="AstonQA" />
+-+      <method v="2">
+-+        <option name="Make" enabled="true" />
+-+      </method>
+-+    </configuration>
+-+    <configuration name="test in AstonQA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-+      <module name="AstonQA" />
+-+      <option name="TEST_OBJECT" value="directory" />
+-+      <dir value="$PROJECT_DIR$/src/test" />
+-       <method v="2">
+-         <option name="Make" enabled="true" />
+-       </method>
+-     </configuration>
+-     <recent_temporary>
+-       <list>
+-+        <item itemvalue="JUnit.test in AstonQA" />
+-+        <item itemvalue="Application.Main" />
+-+        <item itemvalue="Application.MtsByTest" />
+-+        <item itemvalue="JUnit.test in AstonQA" />
+-         <item itemvalue="Application.Main" />
+-       </list>
+-     </recent_temporary>
+-   </component>
+-+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-   <component name="TaskManager">
+-+    <task active="true" id="Default" summary="Default task">
+-+      <changelist id="2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3" name="Changes" comment="" />
+-+      <created>1724670772768</created>
+-+      <option name="number" value="Default" />
+-+      <option name="presentableId" value="Default" />
+-+      <updated>1724670772768</updated>
+-+    </task>
+-+    <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'">
+-+      <option name="closed" value="true" />
+-+      <created>1724677821497</created>
+-+      <option name="number" value="00001" />
+-+      <option name="presentableId" value="LOCAL-00001" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1724677821497</updated>
+-+    </task>
+-+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/master'">
+-+      <option name="closed" value="true" />
+-+      <created>1724695459910</created>
+-+      <option name="number" value="00002" />
+-+      <option name="presentableId" value="LOCAL-00002" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1724695459910</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="3" />
+-     <servers />
+-   </component>
+-+  <component name="Vcs.Log.Tabs.Properties">
+-+    <option name="TAB_STATES">
+-+      <map>
+-+        <entry key="MAIN">
+-+          <value>
+-+            <State />
+-+          </value>
+-+        </entry>
+-+      </map>
+-+    </option>
+-+  </component>
+-+  <component name="VcsManagerConfiguration">
+-+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+-+  </component>
+- </project>
+-\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_08_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_08_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_08_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_20_08_[Changes]/shelved.patch	(revision 8b9e62ed0880eee5c7694abb12bc5f33b58e0f30)
++++ /dev/null	(revision 8b9e62ed0880eee5c7694abb12bc5f33b58e0f30)
+@@ -1,48 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3\" name=\"Changes\" comment=\"Merge remote-tracking branch 'origin/master'\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"Lesson_14_junit_5\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;vladbooker&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/vladbooker/AstonQA.git&quot;,\r\n    &quot;accountId&quot;: &quot;cbd0033b-ecc5-43f8-a676-44f15b98bd87&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2lC4YJ54usmcZMtW36sJtnhX6pi\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Application.MtsByTest.executor&quot;: &quot;Run&quot;,\r\n    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,\r\n    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;Lesson__15MTS&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Application.MtsByTest\">\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.Main\" />\r\n      <module name=\"AstonQA\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"org.example.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MtsByTest\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"MtsByTest\" />\r\n      <module name=\"AstonQA\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"test in AstonQA\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"AstonQA\" />\r\n      <option name=\"TEST_OBJECT\" value=\"directory\" />\r\n      <dir value=\"$PROJECT_DIR$/src/test\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.MtsByTest\" />\r\n        <item itemvalue=\"JUnit.test in AstonQA\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n        <item itemvalue=\"JUnit.test in AstonQA\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3\" name=\"Changes\" comment=\"\" />\r\n      <created>1724670772768</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1724670772768</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724677821497</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724677821497</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Merge remote-tracking branch 'origin/master'\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724695459910</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724695459910</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Merge remote-tracking branch 'origin/master'\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Merge remote-tracking branch 'origin/master'\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <breakpoint enabled=\"true\" type=\"java-exception\">\r\n          <properties class=\"java.lang.IllegalStateException\" package=\"java.lang\" />\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision 7366bfe5123013ba945c8891cc51d29a42d4b679)
+-+++ b/.idea/workspace.xml	(date 1724696420986)
+-@@ -4,7 +4,9 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3" name="Changes" comment="Merge remote-tracking branch 'origin/master'" />
+-+    <list default="true" id="2fdda963-2ba8-4d16-ba1a-e5ff55c36fc3" name="Changes" comment="Merge remote-tracking branch 'origin/Lesson_15MTS' into Lesson_15MTS&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/test/java/MtsByTest.java">
+-+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-+    </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-@@ -128,7 +130,15 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1724695459910</updated>
+-     </task>
+--    <option name="localTasksCounter" value="3" />
+-+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/Lesson_15MTS' into Lesson_15MTS&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/test/java/MtsByTest.java">
+-+      <option name="closed" value="true" />
+-+      <created>1724696117962</created>
+-+      <option name="number" value="00003" />
+-+      <option name="presentableId" value="LOCAL-00003" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1724696117962</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="4" />
+-     <servers />
+-   </component>
+-   <component name="Vcs.Log.Tabs.Properties">
+-@@ -144,7 +154,8 @@
+-   </component>
+-   <component name="VcsManagerConfiguration">
+-     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+--    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+-+    <MESSAGE value="Merge remote-tracking branch 'origin/Lesson_15MTS' into Lesson_15MTS&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/test/java/MtsByTest.java" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/Lesson_15MTS' into Lesson_15MTS&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/test/java/MtsByTest.java" />
+-   </component>
+-   <component name="XDebuggerManager">
+-     <breakpoint-manager>
+Index: src/test/java/PaymentPage.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/PaymentPage.java b/src/test/java/PaymentPage.java
+new file mode 100644
+--- /dev/null	(date 1725816826794)
++++ b/src/test/java/PaymentPage.java	(date 1725816826794)
+@@ -0,0 +1,85 @@
++import org.junit.Assert;
++import org.openqa.selenium.*;
++import org.openqa.selenium.support.ui.ExpectedConditions;
++import org.openqa.selenium.support.ui.WebDriverWait;
++import java.util.List;
++
++public class PaymentPage {
++
++    private WebDriver driver;
++
++    public PaymentPage(WebDriver driver) {
++        this.driver = driver;
++        waitForPaymentForm();
++    }
++
++    public void waitForPaymentForm() {
++        WebDriverWait wait = new WebDriverWait(driver, 10);
++        try {
++            // Ждем, пока iframe станет видимым
++            WebElement paymentIFrame = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//iframe[@class='bepaid-iframe']")));
++            // Переключаемся на фрейм
++            driver.switchTo().frame(paymentIFrame);
++        } catch (TimeoutException e) {
++            System.err.println("Фрейм не доступен или не загружен вовремя: " + e.getMessage());
++        } catch (NoSuchFrameException e) {
++            System.err.println("Не удалось переключиться на фрейм: " + e.getMessage());
++        }
++    }
++
++    public WebElement getFrame() {
++        try {
++            // Переключаемся на основной контекст перед поиском фрейма
++            driver.switchTo().defaultContent();
++            WebDriverWait wait = new WebDriverWait(driver, 15);
++            return wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//iframe[@class='bepaid-iframe']")));
++        } catch (Exception e) {
++            System.err.println("Не удалось найти фрейм: " + e.getMessage());
++            return null; // Или можно выбросить исключение
++        }
++    }
++
++
++    public String getPhoneNumber() {
++        // Найти элемент, который содержит текст с номером телефона
++        WebElement phoneNumberElement = driver.findElement(By.xpath("//div[contains(@class, 'pay-description__text')]//span"));
++        // Извлечь текст из элемента и отформатировать его для получения только номера
++        String fullText = phoneNumberElement.getText();
++        // Предполагая, что текст имеет фиксированный формат ("Оплата: Услуги связи Номер:375297777777")
++        // мы можем разбить строку и извлечь только номер телефона
++        String[] parts = fullText.split("Номер:");
++        if (parts.length > 1) {
++            return parts[1].trim(); // возвращаем номер без лишних пробелов
++        }
++        return null; // если номер не найден
++    }
++
++
++    public String getAmount() {
++        // Находим элемент с нужным классом
++        WebElement amountField = driver.findElement(By.cssSelector(".pay-description__cost span"));
++        // Возвращаем текст элемента, который содержит сумму
++        return amountField.getText();
++    }
++
++
++    public void checkEmptyFields() {
++        WebElement cardNumberField = driver.findElement(By.id("cc-number"));
++        WebElement expiryDateField = driver.findElement(By.id("expiry-date"));
++        WebElement cvvField = driver.findElement(By.id("cvv"));
++
++        // Проверка полей карты
++        Assert.assertTrue("Поле для номера карты не должно быть заполнено", cardNumberField.getAttribute("value").isEmpty());
++        Assert.assertTrue("Поле для даты окончания срока действия карты не должно быть заполнено", expiryDateField.getAttribute("value").isEmpty());
++        Assert.assertTrue("Поле для CVV-кода не должно быть заполнено", cvvField.getAttribute("value").isEmpty());
++    }
++
++    public void checkPaymentLogos() {
++        List<WebElement> paymentLogos = driver.findElements(By.cssSelector("img[alt='Visa'], img[alt='Verified By Visa'], img[alt='MasterCard'], img[alt='MasterCard Secure Code'], img[alt='Белкарт'].payment-logo-class"));
++        Assert.assertEquals("Не найдено 5 логотипов платёжных систем", 5, paymentLogos.size());
++        for (WebElement logo : paymentLogos) {
++            Assert.assertTrue("Логотип не отображается", logo.isDisplayed());
++        }
++    }
++}
++
+Index: src/test/java/HomePage.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/HomePage.java b/src/test/java/HomePage.java
+new file mode 100644
+--- /dev/null	(date 1725816079581)
++++ b/src/test/java/HomePage.java	(date 1725816079581)
+@@ -0,0 +1,63 @@
++import org.openqa.selenium.*;
++import org.openqa.selenium.support.ui.ExpectedConditions;
++import org.openqa.selenium.support.ui.WebDriverWait;
++
++public class HomePage {
++
++    private WebDriver driver;
++
++    public HomePage(WebDriver driver) {
++        this.driver = driver;
++    }
++
++    public void open() {
++        driver.get("https://mts.by");
++    }
++
++    public WebElement getBlockTitle() {
++        return driver.findElement(By.xpath("//h2[contains(text(), 'Онлайн пополнение')]"));
++    }
++
++    public WebElement getOnlineReplenishmentLink() {
++        return driver.findElement(By.linkText("Подробнее о сервисе"));
++    }
++
++    public PaymentPage fillConnectionDetails(String phone, String amount) {
++        WebElement phoneNumberInput = driver.findElement(By.id("connection-phone"));
++        phoneNumberInput.sendKeys(phone);
++
++        WebElement amountInput = driver.findElement(By.id("connection-sum"));
++        amountInput.sendKeys(amount);
++
++        // Закрываем перекрывающий элемент
++        try {
++            WebElement closeButton = driver.findElement(By.cssSelector("button.btn.btn_gray.cookie__cancel"));
++            closeButton.click();
++        } catch(Exception e) {
++            System.err.println("Не удалось закрыть перекрывающий элемент: " + e.getMessage());
++        }
++
++
++        // Ждем кнопку Продолжить
++        WebDriverWait wait = new WebDriverWait(driver, 10);
++        WebElement continueButton = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("button.button.button__default")));
++        if (continueButton.isDisplayed() && continueButton.isEnabled()) {
++            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", continueButton);
++        } else {
++            System.err.println("Кнопка не доступна для клика: " + continueButton);
++        }
++
++        // Используем JavaScript для клика на кнопку
++        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", continueButton);
++        try {
++            ((JavascriptExecutor) driver).executeScript("arguments[0].click();", continueButton);
++        } catch (ElementNotInteractableException e) {
++            System.err.println("Кнопка не доступна для клика: " + e.getMessage());
++            // возможное логирование или дополнительные действия
++        }
++
++        return new PaymentPage(driver);
++    }
++
++}
++
